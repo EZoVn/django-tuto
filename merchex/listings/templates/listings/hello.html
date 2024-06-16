@@ -1,0 +1,9 @@
+{% extends 'listings/base.html' %} {% block content %}
+<h1>Hello, world. You're at the listings index.</h1>
+<p>I have {{ bands|length }} favorites groups:</p>
+<ul>
+  {% for band in bands %}
+  <li>{{ band.name }}</li>
+  {% endfor %}
+</ul>
+{% endblock %}
