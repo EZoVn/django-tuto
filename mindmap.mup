@@ -1,0 +1,248 @@
+{
+  "formatVersion": 3,
+  "id": "root",
+  "ideas": {
+    "1": {
+      "title": "DJANGO",
+      "id": 1,
+      "attr": {
+        "position": [
+          -79,
+          -24,
+          1
+        ],
+        "style": {
+          "width": 160
+        }
+      }
+    },
+    "2": {
+      "title": ".\\env\\Scripts\\activate",
+      "id": 2,
+      "attr": {
+        "position": [
+          520,
+          -217,
+          1
+        ]
+      },
+      "ideas": {}
+    },
+    "3": {
+      "title": "deactivate",
+      "id": 6,
+      "attr": {
+        "position": [
+          566,
+          -59,
+          1
+        ]
+      }
+    },
+    "4": {
+      "title": "python .\\manage.py runserver",
+      "id": 7,
+      "attr": {
+        "position": [
+          526,
+          -140,
+          1
+        ]
+      }
+    },
+    "5": {
+      "title": "django-admin startproject merchex",
+      "id": 8,
+      "attr": {
+        "position": [
+          177,
+          -43,
+          1
+        ]
+      }
+    },
+    "6": {
+      "title": "vue",
+      "id": 9,
+      "attr": {
+        "position": [
+          -67,
+          64,
+          1
+        ]
+      }
+    },
+    "7": {
+      "title": "model",
+      "id": 10,
+      "attr": {
+        "position": [
+          -252,
+          -380,
+          1
+        ]
+      }
+    },
+    "8": {
+      "title": "makemigrations",
+      "id": 11,
+      "attr": {
+        "position": [
+          -149,
+          -375,
+          1
+        ]
+      },
+      "ideas": {
+        "1": {
+          "title": "migrate",
+          "id": 12,
+          "attr": {
+            "position": [
+              166,
+              -47,
+              1
+            ]
+          }
+        }
+      }
+    },
+    "9": {
+      "title": "python ./manage.py shell",
+      "id": 13,
+      "attr": {
+        "position": [
+          364,
+          164,
+          1
+        ]
+      }
+    },
+    "10": {
+      "title": "gabarit ",
+      "id": 14,
+      "attr": {
+        "position": [
+          -613,
+          7,
+          1
+        ]
+      },
+      "ideas": {
+        "1": {
+          "title": "html",
+          "id": 22
+        }
+      }
+    },
+    "11": {
+      "title": "MVT(model vue template)",
+      "id": 15,
+      "attr": {
+        "position": [
+          -597,
+          -160,
+          1
+        ]
+      },
+      "ideas": {
+        "1": {
+          "title": "Vue",
+          "id": 18,
+          "attr": {
+            "style": {
+              "width": 23
+            }
+          },
+          "ideas": {
+            "1": {
+              "title": "Récupère les données",
+              "id": 19
+            }
+          }
+        },
+        "11": {
+          "title": "Template",
+          "id": 20,
+          "attr": {
+            "position": [
+              186,
+              56,
+              2
+            ]
+          },
+          "ideas": {
+            "1": {
+              "title": "Affiche les données",
+              "id": 21
+            }
+          }
+        }
+      }
+    },
+    "12": {
+      "title": "Modèle",
+      "id": 16,
+      "ideas": {
+        "1": {
+          "title": "stocke les données",
+          "id": 17
+        }
+      },
+      "attr": {
+        "position": [
+          -498,
+          -223,
+          1
+        ]
+      }
+    },
+    "13": {
+      "title": "MVC",
+      "id": 23,
+      "attr": {
+        "position": [
+          -592,
+          -420,
+          1
+        ]
+      }
+    }
+  },
+  "title": "DJANGO",
+  "links": [
+    {
+      "ideaIdFrom": 1,
+      "ideaIdTo": 8,
+      "attr": {
+        "style": {
+          "color": "#707070",
+          "lineStyle": "solid",
+          "arrow": "to"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 10,
+      "ideaIdTo": 11,
+      "attr": {
+        "style": {
+          "color": "#707070",
+          "lineStyle": "solid",
+          "arrow": "to"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 15,
+      "ideaIdTo": 16,
+      "attr": {
+        "style": {
+          "color": "#707070",
+          "lineStyle": "solid",
+          "arrow": "to"
+        }
+      }
+    }
+  ]
+}
