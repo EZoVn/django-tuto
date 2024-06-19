@@ -3,9 +3,13 @@
 <p>J'ai {{ bands|length }} groupes favoris:</p>
 <h1>Groupes</h1>
 <a href="{% url 'band-create' %}">Creer un nouveau groupe</a>
+
 <ul>
   {% for band in bands %}
-  <li><a href="{% url 'band-detail' band.id %}">{{ band.name }}</a></li>
+  <li>
+    <a href="{% url 'band-detail' band.id %}">{{ band.name }}</a>
+    <a href="{% url 'band-update' band.id %}">[Modifier]</a>
+  </li>
 
   {% endfor %}
 </ul>

@@ -9,5 +9,6 @@
   <li>Sold: {{ listing.sold|yesno }}</li>
   <li>Band: {{ listing.band }}</li>
 </ul>
+<a href="{% url 'listing-delete' listing.id %}">[Supprimer]</a>
 <a href="{% url 'listing-list' %}">Retour à tous les listings</a>
 {% endblock %}
